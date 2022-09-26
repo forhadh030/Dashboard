@@ -1,9 +1,9 @@
 import Header from '../../components/Header'
 import HeaderImage from '../../images/header_bg_5.jpg'
-import {trainers} from '../../data'
-import {BsInstagram} from 'react-icon/bs'
-import {AiOutlineTwitter} from 'react-icon/ai'
-import {FaFacebookF, FaLinkedIn} from 'react-icon/fa'
+import { trainers } from '../../data'
+import { BsInstagram } from 'react-icon/bs'
+import { AiOutlineTwitter } from 'react-icon/ai'
+import { FaFacebookF, FaLinkedIn } from 'react-icon/fa'
 import './trainers.css'
 import Trainer from '../../components/Trainer'
 
