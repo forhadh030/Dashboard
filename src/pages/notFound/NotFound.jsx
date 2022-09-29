@@ -1,4 +1,4 @@
-import {Link} from 'react-dom'
+import { Link } from 'react-dom'
 import './notFound.css'
 
 const NotFound = () => {
