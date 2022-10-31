@@ -10,7 +10,7 @@ const Values = () => {
         <div className="container values_container">
             <div className="values_left">
                 <div className="values_image">
-                    <img src={Image} alt="Values Image" />
+                    <img src={Image} alt="Values" />
                 </div>
             </div>
             <div className="values_right">
