@@ -10,7 +10,7 @@ const FAQ = ({ question, answer }) => {
   return (
     <article className="faq" onClick={() => setIsAnswerShowing(yes => !yes)}>
         <div>
-            <h4>{question}</h4>
+            <h4>{ question }</h4>
             <button className="faq_icon">
                 {
                   isAnswerShowing ? <AiOutlineMinus /> : <AiOutlinePlus />
