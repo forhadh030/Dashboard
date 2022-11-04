@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 const FAQ = ({ question, answer }) => {
 
-  const[isAnswerShowing, setIsAnswerShowing] = useState(false);
+  const[ isAnswerShowing, setIsAnswerShowing ] = useState(false);
 
   return (
     <article className="faq" onClick={() => setIsAnswerShowing(yes => !yes)}>
