@@ -11,19 +11,20 @@ const Trainers = () => {
   return (
     <>
     <Header title="Our Trainers" image={HeaderImage}>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum libero dolorum quae maxime quaerat culpa porro amet dignissimos minima ducimus, doloribus enim vitae molestias dolores ad repellat impedit magnam! Praesentium.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Nostrum libero dolorum quae maxime quaerat culpa porro amet.
     </Header>
     <section className="trainers">
       <div className="container trainers_container">
         {
           trainers.map(({id, image, name, job, socials}) => {
             return <Trainer key={id} image={image} name={name} job={job} socials={ 
-            [
-              {icon: <BsInstagram />, link: socials[0]},
-              {icon: <AiOutlineTwitter />, link: socials[1]},
-              {icon: <FaFacebookF />, link: socials[2]},
-              {icon: <FaLinkedin />, link: socials[3]}
-            ]
+              [
+                {icon: <BsInstagram />, link: socials[0]},
+                {icon: <AiOutlineTwitter />, link: socials[1]},
+                {icon: <FaFacebookF />, link: socials[2]},
+                {icon: <FaLinkedin />, link: socials[3]}
+              ]
             }/>
           })
         }

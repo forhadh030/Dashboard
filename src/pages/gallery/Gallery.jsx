@@ -10,19 +10,18 @@ const Gallery = () => {
     images.push(require(`../../images/gallery${i}.jpg`))
   }
 
-  console.log(images)
-
   return (
     <>
     <Header title="Our Gallery" image={HeaderImage}>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi fugiat doloremque ex ipsam dolorem autem voluptatum natus, voluptatibus aperiam itaque consectetur exercitationem ab consequatur ipsum eos molestias similique numquam recusandae.
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+      Modi fugiat doloremque ex ipsam dolorem autem voluptatum natus.
     </Header>
     <section className="gallery">
       <div className="container gallery_container">
         {
           images.map((image, index) => {
             return <article key={index}>
-              <img src={image} alt={`Gallery Image ${index + 1}`} />
+              <img src={image} alt={`Gallery ${index + 1}`} />
             </article>
           })
         }

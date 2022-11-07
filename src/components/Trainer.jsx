@@ -3,7 +3,7 @@ import Card from '../UI/Card'
 const Trainer = ({image, name, job, socials}) => {
   return (
     <div>
-      <Card className={"trainer"}>
+      <Card className="trainer">
         <div className="trainer_img">
             <img src={image} alt={name} />
         </div>

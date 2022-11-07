@@ -1,4 +1,3 @@
-import React from 'react'
 import './about.css'
 import HeaderImage from '../../images/header_bg_1.jpg'
 import Header from '../../components/Header'
@@ -10,16 +9,15 @@ const About = () => {
   return (
     <>
       <Header title="About Us" image={HeaderImage}>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-        Veniam eius neque maiores delectus officia ipsa maxime facilis 
-        nobis, cupiditate aliquid quo aperiam voluptas non tenetur libero 
-        qui architecto distinctio similique!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Molestias sequi repudiandae hic ut suscipit velit blanditiis 
+        soluta officiis dolore dolorum.
       </Header>
 
       <section className="about_story">
         <div className="container about_story-container">
           <div className="about_section-image">
-            <img src={StoryImage} alt='Story Image' />
+            <img src={StoryImage} alt='Our Story' />
           </div>
           <div className="about_section-content">
             <h1>Our Story</h1>
@@ -59,7 +57,7 @@ const About = () => {
             </p>
           </div>
           <div className="about_section-image">
-            <img src={VisionImage} alt='Our Vision Image' />
+            <img src={VisionImage} alt='Our Vision' />
           </div>
         </div>
       </section>
@@ -67,10 +65,10 @@ const About = () => {
       <section className="about_mission">
         <div className="container about_mission-container">
           <div className="about_section-image">
-            <img src={MissionImage} alt='Mission Image' />
+            <img src={MissionImage} alt='Our Mission' />
           </div>
           <div className="about_section-content">
-            <h1>Our Story</h1>
+            <h1>Our Mission</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               Beatae voluptas esse mollitia magnam autem quaerat tempore 

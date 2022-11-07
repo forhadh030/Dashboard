@@ -33,7 +33,7 @@ body {
     color: var(--color-gray-200);
     line-height: 1.7;
     overflow-x: hidden;
-    background: var(--color-gray-600);
+    background: var(--color-gray-600) url('./images/bg_texture.png');
 }
 
 .container {
@@ -157,6 +157,8 @@ section {
     font-weight: 300;
 }
 
+/* HEADER SECTION */
+
 .header {
     margin-top: 5rem;
     height: 20rem;
@@ -197,6 +199,7 @@ section {
 .header_content p {
     color: rgba(255,255,255,0.7);
 }
+
 /* MEDIA QUERIES (medium screens) */
 @media screen and (max-width: 1024px) {
     .container {
