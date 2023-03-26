@@ -67,12 +67,6 @@ export const programs = [
 ]
 
 
-
-
-
-
-
-
 export const values = [
     {
         id: 1,
@@ -99,13 +93,6 @@ export const values = [
         desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
     }
 ]
-
-
-
-
-
-
-
 
 
 export const faqs = [
