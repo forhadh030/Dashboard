@@ -8,6 +8,7 @@ const FAQ = ({ question, answer }) => {
   const[ isAnswerShowing, setIsAnswerShowing ] = useState(false);
 
   return (
+    
     <article className="faq" onClick={() => setIsAnswerShowing(yes => !yes)}>
         <div>
             <h4>{ question }</h4>
